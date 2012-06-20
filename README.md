@@ -16,7 +16,7 @@ Usage
         [self.imageView startAnimating];
     }
 
-    ````
+    ```
 
 License
 -------
