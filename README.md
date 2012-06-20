@@ -9,14 +9,14 @@ FVGifAnimation requires iOS 4 or later.
 
 Usage
 -----
-    ```objective-c
+```objective-c
     FVGifAnimation* gifAnimation=[[[FVGifAnimation alloc] initWithData:data] autorelease];
     if([gifAnimation canAnimate]){
         [gifAnimation setAnimationToImageView:self.imageView];
         [self.imageView startAnimating];
     }
 
-    ```
+```
 
 License
 -------
