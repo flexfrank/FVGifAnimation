@@ -88,7 +88,7 @@ static NSUInteger gcdInteger(NSUInteger a,NSUInteger b){
     if([delays count]==0 ){return 0;}
     while([delays count]>1){
         NSUInteger twoDelays[2];
-        [delays getIndexes:twoDelays maxCount:sizeof(twoDelays) inIndexRange:nil];
+        [delays getIndexes:twoDelays maxCount:2 inIndexRange:nil];
         [delays removeIndex:twoDelays[0]];
         [delays removeIndex:twoDelays[1]];
         NSUInteger m= gcdInteger(twoDelays[0],twoDelays[1]);
